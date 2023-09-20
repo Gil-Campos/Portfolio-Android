@@ -7,6 +7,10 @@ import androidx.room.Query
 import androidx.room.Update
 import com.example.myagenda.models.Personal
 
+/**
+ * @Dao is an interface where we put all of our SQL queries; we need to annotate a method with specific
+ * annotations like @Insert, @Delete, @Update and @Query
+ */
 @Dao
 interface PersonalDao {
 
